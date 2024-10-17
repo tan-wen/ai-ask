@@ -19,4 +19,10 @@ public class IndexController {
     return "index";
   }
 
+
+  @GetMapping("activity")
+  public String activity() {
+    return "activity";
+  }
+
 }
